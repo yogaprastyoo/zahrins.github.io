@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.db135f11.css",
+    "main.js": "/static/js/main.bfd17173.js",
+    "static/media/bg_gif.gif": "/static/media/bg_gif.53545af66c8480a9e5e5.gif",
+    "static/media/webpertama.png": "/static/media/webpertama.7479d0da8ac50ce075ba.png",
+    "static/media/Screenshot (532).png": "/static/media/Screenshot (532).3f3bd49a7a9419467f6a.png",
+    "static/media/hijab girl.jpg": "/static/media/hijab girl.42e7043b758a72543162.jpg",
+    "index.html": "/index.html",
+    "main.db135f11.css.map": "/static/css/main.db135f11.css.map",
+    "main.bfd17173.js.map": "/static/js/main.bfd17173.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db135f11.css",
+    "static/js/main.bfd17173.js"
+  ]
+}
