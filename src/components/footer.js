@@ -28,7 +28,7 @@ export default function AppFooter() {
                 <div className="go-top" onClick={goTop}></div>
                 )
             }
-            <Container fluid>
+            <Container fluid className="container-fluid">
             <div className="copyright">&copy; 2024 Zahrin Savana. All Right Reserved.</div>
             </Container>
         </div>

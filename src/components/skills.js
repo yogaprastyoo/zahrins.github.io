@@ -22,8 +22,6 @@ export default function AppSkills() {
                 <Col xs={2} className='skill-col'><IoLogoCss3 /> CSS</Col>
                 <Col  xs={2} className='skill-col'><SiJavascript /> Javascript</Col>
                 <Col xs={2} className='skill-col'><FaReact /> ReactJS</Col>
-            </Row>
-            <Row>
                 <Col xs={2} className='skill-col'><SiCplusplus /> C</Col>
                 <Col xs={2} className='skill-col'><FaBootstrap /> Bootstrap</Col>
                 <Col></Col>

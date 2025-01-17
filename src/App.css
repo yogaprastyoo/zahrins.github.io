@@ -15,7 +15,7 @@
 }
 
 .App {
-  background-color: #DDD4E7;
+  background-color: #e4e4e6;
 }
 .font-title {
   font-family: "Libre Caslon Text", serif;
@@ -52,21 +52,18 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;  /* Pastikan navbar memenuhi lebar */
+  width: 100%;  
   z-index: 1000; /* Pastikan navbar di atas elemen lain */
   padding: 2px 2px;
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;  /* Tambahkan garis bawah */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  /* Efek shadow */
-  border: 1px solid cornsilk;
+  background-color: #ffff; 
+  border: 1px solid rgb(161, 161, 159);
   border-radius: 50px;
 }
 .navhead .nav-item .nav-link {
-  color: #413e3e !important;
+  color: #838080 !important;
 }
 .navhead .nav-item .nav-link:hover {
-  color: #464546 !important;
-  text-shadow: 0px 0px 10px #a438ec;
+  color: black !important;
   transform: scale(1.05);
 }
 .mai-name h5 h2 p{
@@ -77,6 +74,7 @@
 }
 .filter-image {
   filter: drop-shadow(12px 12px 12px grey);
+  border: 5px solid #ddd;
 }
 .bg-gif {
   background-image: url(images/bg_gif.gif);
@@ -97,10 +95,15 @@
 }
 .font-style {
   font-family: "Julius Sans One", serif;
+  text-align: justify;
+}
+.my-name p{
+  text-align: justify;
 }
 .skill-col {
   border: 1px solid cornsilk;
-  margin: 50px 8px 8px 8px;
+  margin: 8px 8px 8px 8px;
+  width: 120px;
 }
 .skill-col:hover {
   background-color: #f5f3f7;
@@ -125,14 +128,14 @@
 }
 .button-project {
   color: #161515;
-  background-color: #BFAFD0;
+  background-color: #ffff;
   border-color: #BFAFD0;
-  padding: 10px;
-  font-size: 16px;
+  padding: 7px;
+  font-size: 14px;
 }
 .button-project:hover {
   color: #161515;
-  background-color: #BFAFD0;
+  background-color: #d6d4d8;
   border-color: #BFAFD0;
 }
 .app-logo a {
@@ -164,13 +167,13 @@
   margin: 10px;
 }
 .ig-logo:hover {
-  background-color: #BFAFD0;
+  background-color: #d6d4d8;
 }
 .x-logo:hover {
-  background-color: #BFAFD0;
+  background-color: #d6d4d8;
 }
 .git-logo:hover {
-  background-color: #BFAFD0;
+  background-color: #d6d4d8;
 }
 .go-top {
   width: 50px;
@@ -213,7 +216,38 @@
   width: 11px;
   height: 11px;
 }
+.container-fluid {
+  padding: 0;       
+  margin: 0;        
+}
 .copyright {
   text-align: center;
   background-color: #fff;
+}
+
+@media screen and (max-width: 476px) {
+  .home-padding {
+    padding: 50px;
+  }
+  .my-photo {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    transform: translateY(85px);
+  }
+  .filter-image {
+    border: 5px solid #ddd; 
+    transition: transform 0.3s, filter 0.3s; 
+  }
+  .filter-image:hover {
+    transform: scale(1.1); 
+  }
+  .bg-gif {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  .card-set {
+    flex-wrap: wrap;
+  }
 }
